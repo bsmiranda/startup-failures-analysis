@@ -1,0 +1,72 @@
+# ============================================
+# PROJETO: Startup Failures Analysis
+# Autor: Bruno Miranda
+# Descrição: Arquivos ignorados no versionamento Git
+# ============================================
+
+
+# ============================================
+# Ambientes Virtuais
+# ============================================
+.venv/
+venv/
+
+# ============================================
+# Arquivos Temporários e Cache do Python
+# ============================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+# ============================================
+# Configurações Locais do VS Code
+# ============================================
+.vscode/
+
+# ============================================
+# Dados
+# ============================================
+
+# Dados brutos (não versionar dados originais)
+data/raw/
+
+# Dados intermediários (geralmente grandes)
+data/interim/
+
+# Dados processados (podem ser pequenos e úteis para demonstração)
+# Caso queira versionar outputs limpos, descomente a linha abaixo:
+# !data/processed/*.csv
+
+# ============================================
+# Notebooks e Checkpoints
+# ============================================
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# ============================================
+# Credenciais e Variáveis de Ambiente
+# ============================================
+.env
+*.env
+
+# ============================================
+# Arquivos temporários diversos
+# ============================================
+*.log
+*.tmp
+*.bak
+
+# ============================================
+# CSVs soltos fora das pastas de dados
+# ============================================
+*.csv
+
+# ============================================
+# Build, Distribuição e Relatórios
+# ============================================
+build/
+dist/
+*.egg-info/
+reports/
