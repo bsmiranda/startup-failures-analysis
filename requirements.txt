@@ -1,0 +1,10 @@
+pandas>=1.5
+numpy
+matplotlib
+seaborn
+jupyterlab
+notebook
+scikit-learn
+plotly
+black
+flake8
